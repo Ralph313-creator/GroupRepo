@@ -95,27 +95,12 @@ footer{
     margin: 40px 0;
 }
 
-.btn{
-    padding: 10px 35px;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    transition: .6s ease;
-}
-.btn:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
-    font-weight: bold;
-}
-
 /* about section */
 
 #about{
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 20px;
     margin-bottom: 50px;
 }
@@ -130,7 +115,6 @@ footer{
 }
 #intro{
     display: flex;
-    
     flex-direction: column;
     text-align: justify;
     padding: 10px;
